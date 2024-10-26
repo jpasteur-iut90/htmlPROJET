@@ -2,73 +2,90 @@ html, body {
     height: 100%;
 }
 
-body {
-    margin: 0;
-    background-color: rgb(193,238,240);
+body{
+    margin: 0px;
+    background-color: rgb(85, 73, 73);
     font-family: "Lato", sans-serif;
     font-weight: 550;
     font-style: normal;
+    text-decoration-color: black;
 }
 
 header {
+    z-index: 1000;
     height: 75px;
-    background-color: rgb(122, 166, 233);
-    border-bottom: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid rgb(139, 124, 124) 3px;
     width: 100%;
     position: fixed;
     top: 0px;
-    z-index: 1000;
+    color: rgb(0, 0, 0)
 }
 
-.menu {
-    display: flex;
-    justify-content: center;
+.menu{
+    margin-top: 0px;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
-nav ul li {
-    margin: 0 15px;
-    transition-duration: 0.5s;
-}
-
-.navbtn a {
-    display: block;
-    padding: 10px;
-    color: white;
+nav ul li div a{
+    margin-top: 0px;
     text-decoration: none;
-}
-
-nav a:hover {
-    background-color: rgba(41, 101, 221, 0.705);
-}
-
-.sous {
-    display: none;
-    background-color: rgba(41, 101, 221, 0.705);
-    position: absolute;
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li:hover .sous {
-    display: block;
-}
-
-.sous li a {
-    color: white;
-    padding: 10px;
-    display: block;
-}
-
-.sous a:hover {
     color: black;
+    font-size: large;
 }
+
+nav ul li{
+    width: 150px;
+    margin-left: 130px;
+    transition-duration: 0.9s;
+    margin: auto;
+}   
+
+nav a:hover{
+    background-color: rgb(189, 164, 164);
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.navbtn {
+    padding: 0 80px;
+}
+    
+nav a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.menu3{
+    height: 70px;
+    width: 100px;
+    position: absolute;
+        top: 3%;
+        left: 0%;
+    object-fit: cover;
+}
+
 
 .content {
     margin-top: 100px;
