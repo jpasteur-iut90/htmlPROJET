@@ -1,49 +1,46 @@
 body{
     margin: 0px;
-    background-color: rgb(193,238,240);
+    background-color: rgb(85, 73, 73);
     font-family: "Lato", sans-serif;
     font-weight: 550;
     font-style: normal;
-    text-decoration-color: white;
+    text-decoration-color: black;
 }
 
 header {
+    z-index: 1000;
     height: 75px;
-    background-color: rgb(122, 166, 233);
-    border-bottom: solid rgb(255, 255, 255) 2px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid rgb(139, 124, 124) 3px;
     width: 100%;
     position: fixed;
     top: 0px;
+    color: rgb(0, 0, 0)
 }
 
 .menu{
     margin-top: 0px;
 }
 
-.aProp{
-    
-    display: box;
-    align-items: center;
-    text-align: center;
-}
 
-a{
+nav ul li div a{
+    margin-top: 0px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
+    font-size: large;
 }
 
 nav ul li{
     width: 150px;
     margin-left: 130px;
-    transition-duration: 0.5s;
+    transition-duration: 0.9s;
     margin: auto;
 }   
 
 nav a:hover{
-    background-color: rgba(41, 101, 221, 0.705);
+    background-color: rgb(189, 164, 164);
+    color: rgb(0, 0, 0);
 }
-
-
 
 nav{
     width: 100%;
@@ -54,53 +51,17 @@ nav{
 }
 
 .navbtn {
-    padding: 0 60px;
-}
-
-nav ul ::after{
-    content: "";
-    display: table;
-        clear: both;
+    padding: 0 80px;
 }
     
 nav a{
     display: block;
     text-decoration: none;
-    color: white;
     border-bottom: 2px solid transparent;
     padding: 10px 10px;
     border-radius: 3px;
 }
 
-.sous{
-    
-    display: none;
-    background-color: rgba(41, 101, 221, 0.705);
-    
-    
-    }
-
-
-nav > ul li:hover .sous{
-    display: block;
-    padding-inline-start: 0;
-    width: 63.75%;
-    margin-left: 18%;
-    text-align: center;
-}
-
-.sous li{
-    width: 100%;
-    text-align: center;
-}
-
-.sous a{
-    border-bottom: none;
-}
-
-.sous a:hover{
-    color: black;
-}
 
 nav ul li{
     float: left;
@@ -113,12 +74,14 @@ ul,li{
 }
 
 .menu3{
-    height: 60px;
-    width: 70px;
+    height: 70px;
+    width: 100px;
     position: absolute;
-        top: 10%;
-        left: 1.2%;
+        top: 3%;
+        left: 0%;
+    object-fit: cover;
 }
+
 
 
 button {
