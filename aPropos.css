@@ -218,4 +218,29 @@ footer {
         opacity: 0.7;
     }
 }
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    height: 115px;
+    background-color:  rgb(0, 0, 0);
+    border-top: solid white 2px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+        top: 170px;
+        right: 0px;
+        left: 0px;
+}
+.apropos{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.apropos:hover{
+    background-color: lightslategray;
+    height:fit-content;
+    width: fit-content;
+}
 
