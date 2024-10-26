@@ -1,212 +1,283 @@
 body{
     margin: 0px;
-    background-image: url(image/fond.png);
     font-family: "Lato", sans-serif;
     font-weight: 550;
     font-style: normal;
     text-decoration-color: white;
 }
-
-header {
-    height: 75px;
-    background-color: rgb(122, 166, 233);
-    border-bottom: solid rgb(255, 255, 255) 2px;
-    width: 100%;
-    position: fixed;
-    top: 0px;
-}
-
-.menu{
-    margin-top: 0px;
-}
-
-.aProp{
-    
-    display: box;
-    align-items: center;
-    text-align: center;
-}
-
 a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
-
-nav ul li{
-    width: 150px;
-    margin-left: 130px;
-    transition-duration: 0.5s;
-    margin: auto;
-}   
-
-nav a:hover{
-    background-color: rgba(41, 101, 221, 0.705);
-}
-
-
-
-nav{
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    position: sticky;
-    top: 0px;
-}
-
-.navbtn {
-    padding: 0 60px;
-}
-
-nav ul ::after{
-    content: "";
-    display: table;
-        clear: both;
-}
-    
-nav a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    border-bottom: 2px solid transparent;
-    padding: 10px 10px;
-    border-radius: 3px;
-}
-
-.sous{
-    
-    display: none;
-    background-color: rgba(41, 101, 221, 0.705);
-    
-    
-    }
-
-
-nav > ul li:hover .sous{
-    display: block;
-    padding-inline-start: 0;
-    width: 63.75%;
-    margin-left: 18%;
-    text-align: center;
-}
-
-.sous li{
-    width: 100%;
-    text-align: center;
-}
-
-.sous a{
-    border-bottom: none;
-}
-
-.sous a:hover{
-    color: black;
-}
-
-nav ul li{
-    float: left;
-    width: 25%;
-    text-align: center;
-}
-
-ul,li{
-    list-style: none;
-}
-
 .menu3{
-    height: 60px;
-    width: 70px;
+    height: 110px;
+    width: 110px;
+    position: fixed;
     position: absolute;
-        top: 10%;
+        top: 1%;
         left: 1.2%;
 }
-
-.Ubisoft{
-    margin-top: 8%;
-    height: 35%;
-    width: 42%;
-}
-
-.tout {
-    display: flex;
-    justify-content: center;  
-}
-.section1{
-    border-radius: 50px 50px;
-    background-color: rgb(173,216,230);
-    margin-top: 12%;
-    width: 80%;
-    height: 90%;
-    box-shadow: 0px 0px 60px black;
-    padding-bottom: 20px;
-    padding-top: 1px;
-}
-
-.etage0{
+.form{
     display: flex;
     justify-content: center;
-    margin-left: 45px;
 }
-
-.txt0{
-    margin-top: 30px;
-    margin-bottom: 15px;
-} 
-
-.jeu1{
-    border-radius: 10px 10px;
-    color: black;
-    margin-right: 50px;
-    width: 250px;
-    border: solid black 2px;
-    padding: 15px;
-    background: rgb(163,198,215);
+.form1{
+    width: 20%;
+    height: 1.8vw;
 }
-
-.img0{
-    width: 180px;
-    height: 250px;
-    border: solid black 3px;
+.panier{
+    background-color: white;
+    float: right;
+    height:4%;
+    width: 2%;
+    position: absolute;
+        top: 2%;
+        right: 1.2%;
 }
-
-.img1{
-    width: 100px;
-    height: 100px;
+.panier:hover{
+    background-color: lightblue;
 }
-
-.étage1{
-    margin-top: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-top: solid gray 2px;
-    border-bottom: solid gray 2px;
+.s1{
+    height: 100%;
 }
-
-.étage2{
-    display:flex
-    justify-content flex-start;
-    background: rgb(163,198,215);
+.fond{
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 5%;
 }
-    
-.maps{
-    width: 250px;
-    height: 250px;
-    margin-left: 10px;
-    transition: 0.4s;
+.marques{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    font-family: Trebuchet (sans-serif);
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 25px;
 }
-
-.maps:hover{
-    width: 300px;
-    height: 300px;
+.presentation{
+    margin-left: 2%;
+    font-size: 25px;
 }
-
+.nike{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.nike:hover{
+    background-color:lightgray;
+}
+.addidas{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.addidas:hover{
+    background-color:lightgray;
+}
+.NB{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.NB:hover{
+    background-color:lightgray;
+}
+.Puma{
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.Puma:hover{
+    background-color:lightgray;
+}
+.allin{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.allin:hover{
+    background-color:lightgray;
+}
+.FI{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 2%;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.FI:hover{
+    background-color:lightgray;
+}
+.ventes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Trebuchet (sans-serif);
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 25px;
+}
+.force1{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 1%;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.max2023{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 2%;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+}
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: Trebuchet (sans-serif);
+    font-size: 20px;
+    padding: 2%;
+    margin-left: 25px;
+}
+.titre1{
+    margin-left: 2%;
+    font-size: 25px;
+}
+.titre2{
+    margin-left: 2%;
+    font-size: 35px;
+}
+.titre3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    margin-left: 2%;
+    font-size: 25px;
+}
+.max951{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 1%;
+    font: bold 1rem sans-serif;
+    font-size: 0.5px;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;   
+}
+.max952{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 1%;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;   
+}
+.max953{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 1%;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;   
+}
+.max954{
+    display: flex;
+    border: black;
+    border: solid;
+    border-radius: 12px;
+    border-spacing: 1%;
+    font: bold 1rem sans-serif;
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;   
+}
 footer{
-    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
     height: 115px;
-    background-color:  rgb(122, 166, 233);
+    background-color:  rgb(0, 0, 0);
     border-top: solid white 2px;
     width: 100%;
+    height: 100%;
     position: relative;
         top: 170px;
         right: 0px;
         left: 0px;
+}
+.apropos{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+.apropos:hover{
+    background-color: lightslategray;
+    height:fit-content;
+    width: fit-content;
 }
