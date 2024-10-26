@@ -1,22 +1,87 @@
 body{
     margin: 0px;
+    background-color: rgb(85, 73, 73);
     font-family: "Lato", sans-serif;
     font-weight: 550;
     font-style: normal;
-    text-decoration-color: white;
+    text-decoration-color: black;
 }
-a{
+
+header {
+    z-index: 1000;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid rgb(139, 124, 124) 3px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    color: rgb(0, 0, 0)
+}
+
+.menu{
+    margin-top: 0px;
+}
+
+
+nav ul li div a{
+    margin-top: 0px;
     text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav ul li{
+    width: 150px;
+    margin-left: 130px;
+    transition-duration: 0.9s;
+    margin: auto;
+}   
+
+nav a:hover{
+    background-color: rgb(189, 164, 164);
     color: rgb(0, 0, 0);
 }
-.menu3{
-    height: 110px;
-    width: 110px;
-    position: fixed;
-    position: absolute;
-        top: 1%;
-        left: 1.2%;
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
 }
+
+.navbtn {
+    padding: 0 80px;
+}
+    
+nav a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.menu3{
+    height: 70px;
+    width: 100px;
+    position: absolute;
+        top: 3%;
+        left: 0%;
+    object-fit: cover;
+}
+
 .form{
     display: flex;
     justify-content: center;
