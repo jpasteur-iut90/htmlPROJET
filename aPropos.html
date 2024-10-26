@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +7,61 @@
     <link rel="stylesheet" href="aPropos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
     <link rel="icon" type="image/x-icon" href="image/logo.png">
 </head> 
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li class="deroulant">
-                    <div class="navbtn">
-                        <a href="index.html">Accueil</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="navbtn"><a href="jeuxvideos.html">Jeux Vidéos</a></div>
-                </li>
-                <li>
-                    <div class="navbtn"><a href="#">A Propos</a></div>
+                <li class="deroulant"><div class="navbtn"><a href="index.html">Accueil</a></div></li>
+                <li><div class="navbtn"><a href="jeuxvideos.html">Jeux Vidéos</a></div></li>
+                <li><div class="navbtn"><a href="#">A Propos</a></div>
                     <ul class="sous">
                         <li><a href="finances.html">Finances</a></li>
                         <li class="aProp"><a href="aPropos.html">Notre Entrepise</a></li>
                     </ul>
                 </li>
-                <li>
-                    <div class="navbtn"><a href="contact.html">Contact</a></div>
-                </li>
+                <li><div class="navbtn"><a href="contact.html">Contact</a></div></li>
             </ul>
         </nav>
     </header>
 
-        <footer>
+    <main class="content">
+        <div class="flex-container">
+            <section class="section_title">
+                <h1>A propos de nous</h1>
+            </section>
+            <section class="description">
+                <p> dans un premier temps nous étions une petite entreprise situé à belfort vendant des chaussure nous nous somme étendu jusqu'a avoir une dizaine de magasin</p>
+                <p>cependant la concurrence puis la crise du covid nous a fait comprendre l'intérêt d'une numérisation de notre économie donc nous avons crée ce site web</p>
+            </section>
+            <section class="images">
+                <ul>
+                    <li>
+                        <div data-text="notre premier magasin"><img src="image/ure.jpg" alt="magasin"></div>
+                        <span>notre premier magasin</span>
+                    </li>
+                    <li>
+                        <div data-text="l'équipe de développeurs de devweb agency qui a créé notre site web"><img src="image/chauss.jpg" alt="equipe dev"></div>
+                        <span>l'équipe de développeurs de devweb agency qui a créé notre site web</span>
+                    </li>
+                    <li>
+                        <div data-text="un de nos produit phare"><img src="image/chôsur.jpg" alt="chaussure"></div>
+                        <span>un de nos produit phare</span>
+                    </li>
+                </ul>
+            </section>
+            
+            
+        </div>
+    </main>
+    
+
+    <footer>
         <div class="PiedDePage">
-            <section class="8">
-                <p>Personne s'occupant de la page:Lucas Requena</p>
+            <section class="contact_info">
+                <p>Personne s'occupant de la page: Lucas Requena</p>
             </section>
         </div>
     </footer>
