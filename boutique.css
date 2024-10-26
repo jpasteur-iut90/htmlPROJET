@@ -114,6 +114,10 @@ body a{
     align-content: center;
     justify-content: space-between;
     text-align: center;
+}@media(max-width: 1000px){
+    .container{
+        flex-direction: column;
+    }
 }
 
 .container :hover{
@@ -138,8 +142,11 @@ body a{
     display: flex;
     align-content: flex-start;
     align-content: center;
-    justify-content: space-between;
     text-align: center;
+}@media(max-width: 1000px){
+    .container2{
+        flex-direction: column;
+    }
 }
 
 .items1 :hover{
@@ -159,13 +166,12 @@ section div a p{
     font-weight: bolder;
 }
 
-@media(max-width: 810){
-    .container{
-        flex-direction: column
-    }
-    .container2{
-        flex-direction: column
-    }
+
+.bouton {
+    padding: 6px 15px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 30px;
 }
 
 footer{
