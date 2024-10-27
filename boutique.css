@@ -149,7 +149,7 @@ body a{
     }
 }
 
-.img1 :hover{
+.items1 :hover{
     transition: 0.8s;
     width: 240px;
     height: 325px;
@@ -180,19 +180,13 @@ section div a p{
     line-height: normal; 
     cursor: pointer;
     border: none;
-    transition: background-color 0.3s ease; 
+    transition: 0.3s; 
 }
 
-.bouton:hover {
-    background-color: #ffffff;
+button :hover{
+    background: black;
+    color: white;
 }
-
-
-.bouton :hover{
-    background : white;
-}
-
-
 
 
 footer{
@@ -220,4 +214,6 @@ footer{
     height:fit-content;
     width: fit-content;
 }
+
+
 
